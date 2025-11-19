@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+/node_modules
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+*.swp
+*.swo

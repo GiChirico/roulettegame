@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Russian Roulette Game</title>
+  </head>
+  <body>
+    <h1>Russian Roulette Game</h1>
+    <main>
+      <section class="player" id="player-0">
+        <h3 id="name-0" class="name">Player 1</h3>
+        <p id="lives-0" class="lives">❤️ ❤️ ❤️ ❤️ ❤️</p>
+        <p id="player-0-shot" class="player-shot"></p>
+      </section>
+      <section class="game-area">
+        <button class="btn btn-restart">Restart Game</button>
+        <div class="barrel">
+          <!-- Chamber 1 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(0deg) translate(59px) rotate(0deg)"
+          >
+            <div class="chamber" id="c1"></div>
+          </div>
+          <!-- Chamber 2 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(60deg) translate(59px) rotate(-60deg)"
+          >
+            <div class="chamber" id="c2"></div>
+          </div>
+          <!-- Chamber 3 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(120deg) translate(57px) rotate(-120deg)"
+          >
+            <div class="chamber" id="c3"></div>
+          </div>
+          <!-- Chamber 4 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(180deg) translate(56px) rotate(-180deg)"
+          >
+            <div class="chamber" id="c4"></div>
+          </div>
+          <!-- Chamber 5 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(240deg) translate(56px) rotate(-240deg)"
+          >
+            <div class="chamber" id="c5"></div>
+          </div>
+          <!-- Chamber 6 -->
+          <div
+            class="chamber-wrapper"
+            style="transform: rotate(300deg) translate(57px) rotate(-300deg)"
+          >
+            <div class="chamber" id="c6"></div>
+          </div>
+
+          <!-- Center of barrel -->
+          <div class="center"></div>
+        </div>
+        <img src="./revolver.png" alt="old revolver" />
+        <button class="btn btn-load">Load Bullet</button>
+        <button class="btn btn-shoot">Shoot</button>
+      </section>
+
+      <section class="player" id="player-1">
+        <h3 id="name-1" class="name">Player 2</h3>
+        <p id="lives-1" class="lives">❤️ ❤️ ❤️ ❤️ ❤️</p>
+        <p id="player-1-shot" class="player-shot"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
