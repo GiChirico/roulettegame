@@ -9,7 +9,7 @@ Will you pull the trigger... or pass it to your friend? 😈
 
 ## ✨ Live Demo
 
-Play it right now → https://GiChirico.github.io/russian-roulette  
+Play it right now → [https://GiChirico.github.io/russian-roulette](https://gichirico.github.io/roulettegame/)  
 (Just replace `your-username` with your actual GitHub username after you enable GitHub Pages)
 
 ## 🎮 How to Play
@@ -37,7 +37,7 @@ Super simple – no installation needed!
 
 ```bash
 # 1. Clone or download the repo
-git clone https://github.com/your-username/russian-roulette.git
+git clone https://github.com/gichirico/russian-roulette.git
 
 # 2. Open the folder and double-click index.html
 # OR just drag index.html into your browser
