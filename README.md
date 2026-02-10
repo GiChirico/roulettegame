@@ -9,7 +9,7 @@ Will you pull the trigger... or pass it to your friend?
 
 ## ✨ Live Demo
 
-Play it right now → [https://GiChirico.github.io/russian-roulette](https://gichirico.github.io/roulettegame/)
+Play it right now → [https://gichirico.github.io/roulettegame](https://gichirico.github.io/roulettegame/)
 
 ## 🎮 How to Play
 
